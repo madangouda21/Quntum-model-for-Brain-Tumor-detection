@@ -58,3 +58,6 @@ Technologies Used
 	•	You may require Jupyter or Google Colab if you face local runtime issues for quantum models.
 	•	The code is modular: feature extraction, training, and evaluation are all in separate scripts.
 
+
+
+i uploaded app.py because to connect frontend , the frontend code you can downloaded from my another Repository
