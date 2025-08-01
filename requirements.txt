@@ -1,0 +1,9 @@
+pennylane==0.36.0 # Or your desired version, ensure it's compatible
+scikit-learn
+numpy
+scipy
+joblib
+Pillow # For image processing
+flask # If you intend to use app.py as a Flask app
+matplotlib # For plotting confusion matrices
+seaborn # For enhanced plotting of confusion matrices
