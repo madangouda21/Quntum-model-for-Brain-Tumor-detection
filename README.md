@@ -38,12 +38,21 @@ Extract features from the MRI images and save them in a .csv file.
 python feature_extraction.py
 
 This will generate a CSV file with all the extracted features used for training the model.
+
 python train_classical_models.py   // for comparing the models both in once
+
 Step 2: Train the Model
 
 python train_model.py
 
 You can switch between classical and quantum classifiers inside the script.
+
+Step 3: Connect to Frontend
+
+Start the API server to allow frontend integration:
+
+python app.py
+
 
 Technologies Used
 	•	Python
@@ -58,6 +67,3 @@ Technologies Used
 	•	You may require Jupyter or Google Colab if you face local runtime issues for quantum models.
 	•	The code is modular: feature extraction, training, and evaluation are all in separate scripts.
 
-
-
-i uploaded app.py because to connect frontend , the frontend code you can downloaded from my another Repository
